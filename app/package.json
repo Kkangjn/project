@@ -1,5 +1,27 @@
 {
+  "name": "youpotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "youpotify": "www.js"
+  },
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^8.0.2",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }
